@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Quintessential&display=swap" rel="stylesheet">   
+    <title>Document</title>
+    
+
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+                <h1>El amigo secreto</h1>
+                <img class="headerImg" src="./assets/IMG/Gift.png" alt="">
+        </div>
+        <div class="juego">
+            <h3>Digite el nombre de sus amigos</h3>
+            <div class="input">
+                <input class="inputAmigo" type="text">
+                <button class="btnAgregar">Agregar</button>
+            </div>
+            <div id="divLista"></div>
+            <div class="sorteo">
+                <button onclick="Sortear()" class="btnSorteo">Sortear!</button>
+                <div class="amigoSorteado"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./Sorteo.JS"></script>
+</body>
+</html>
